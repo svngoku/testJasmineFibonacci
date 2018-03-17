@@ -1,12 +1,32 @@
-const calc = require('../../site/calc.js');
+const calc = require('../../site/fibonacci');
  
-describe("fonction calculatrice", function() {
+describe("fonction fibonacci", function() {
  
-  describe("addition", function() {
+  describe("fibonacci", function() {
  
-    it("addition de deux nombres", function() {
-      let value = calc.addition(3, 2);
-      expect(value).toBe(5);
+    it("terme 0", function() {
+      let value = calc.fibonacci(0);
+      expect(value).toBe(0);
+    });
+
+    it("terme 1", function() {
+      let value = calc.fibonacci(1);
+      expect(value).toBe(1);
+    });
+
+    it("terme 2", function() {
+      let value = calc.fibonacci(2);
+      expect(value).toBe(1);
+    });
+
+    it("terme 3", function() {
+      let value = calc.fibonacci(3);
+      expect(value).toBe(2);
+    });
+
+    it("terme 14", function() {
+      let value = calc.fibonacci(14);
+      expect(value).toBe(377);
     });
 })
 })
