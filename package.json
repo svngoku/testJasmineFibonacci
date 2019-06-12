@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jasmine",
-    "fibo" : "node .\\site\\afficherFibonacci"
+    "fibo": "node .\\site\\afficherFibonacci"
   },
   "repository": {
     "type": "git",
