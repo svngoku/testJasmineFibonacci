@@ -13,4 +13,4 @@ Pour lancer le test
 
 Phase de test réussi
 
-[test](https://github.com/svngoku/testJasmineFibonacci/blob/master/site/ValidTest.png)
+![test](https://raw.githubusercontent.com/svngoku/testJasmineFibonacci/master/site/ValidTest.png)
